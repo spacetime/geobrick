@@ -1,5 +1,5 @@
 {
-  "name": "start-here",
+  "name": "geobrick",
   "version": "0.1.0",
   "description": "Forkable component for Mozilla Appmaker",
   "main": "none",
@@ -8,17 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:mozilla-appmaker/start-here"
+    "url": "git@github.com:spacetime/geobrick.git"
   },
   "keywords": [
     "appmaker",
     "webcomponents",
-    "ceci"
+    "ceci",
+    "geolocation"
   ],
-  "author": "David Ascher",
+  "author": "Saurabh Anand, Rishab Arora",
   "license": "MPL-v2",
   "bugs": {
-    "url": "https://github.com/mozilla-appmaker/start-here/issues"
+    "url": "git@github.com:spacetime/geobrick.git/issues"
   },
   "devDependencies": {
     "grunt-contrib-watch": "~0.5.3",

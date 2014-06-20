@@ -2,28 +2,20 @@
   <ceci-definition>
     {
       "name": "<%= name %>",
-      "tags": "<%= name %>,math,starter",
+      "tags": "<%= name %>,geolocatio",
       "thumbnail": "./thumbnail.png",
       "description": "Listens for a message and counts",
       "broadcasts": {
-        "currentCount": {
-          "label": "Current Count",
-          "description": "Broadcasts the current count."
+        "currentLocation": {
+          "label": "Current Location",
+          "description": "Broadcasts the current location."
         }
       },
       "listeners": {
-        "countUp": {
-          "description": "Increment the total by the increment value",
-          "label": "Count Up!",
+        "sendLocation": {
+          "description": "Trigger an action to broadcast the current location of the user",
+          "label": "Send Location",
           "default" : true
-        },
-        "countDown": {
-          "description": "Decrement the total by the increment value",
-          "label": "Count Down"
-        },
-        "resetCount": {
-          "description": "Reset the total to 0.",
-          "label": "Reset Count"
         }
       },
       "attributes": {
