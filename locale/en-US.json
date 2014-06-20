@@ -1,0 +1,8 @@
+{
+	"ceci-geobrick": "geobrick",
+	"ceci-geobrick/description": "Listens for a message and counts",
+	"ceci-geobrick/attributes/unit/label": "Unit",
+	"ceci-geobrick/attributes/unit/description": "Name for items which are being counted.",
+	"ceci-geobrick/attributes/increment/label": "Increment By",
+	"ceci-geobrick/attributes/increment/description": "Count up or down with this number."
+}
